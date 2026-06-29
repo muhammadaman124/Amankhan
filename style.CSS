@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 300px 300px 300px;
+}
+.box1{
+    background: hsl(78, 84%, 55%);
+    height: 200px;
+}
+.box2{
+    background: hwb(150 4% 12%);
+    height: 150px
+}
+.box3{
+    background: hwb(0 17% 7%);
+    height: 350px;
+}
+.box4{
+    background: hwb(203 46% 10%);
+    height: 200px;
+}
+.box5{
+    background: hwb(307 17% 7%);
+}
+.box6{
+    background: rgb(44, 76, 237);
+}
