@@ -1,48 +1,46 @@
+
+/* Revision Grid !! */
+
+
+/* .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  height: 100vh;
+  width: 100%;
+}
+.box {
+  background: red;
+  
+}
+.item-1{
+  grid-column: 1/4;
+}
+.item-2{
+    grid-row: span 3;
+} */
+
+
+/* Start New Topic Grid!! */
+
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-
-body{
-    font-family: Arial, sans-serif;
-    background:white
-    padding: 20px;
-
-}
-
-h1{
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.gallery{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.container{
+    display: grid; 
+    grid-template-columns: repeat(6, minmax(200px, 1fr)); 
     gap: 20px;
-    height: 100vh;
     width: 100%;
+    place-items: center;
+    height: 100vh;
 }
-
 .box{
-    background: #1804f5;
-    color: white;
-    font-size: 30px;
-    height: 180px;
-    display: grid;
+    background: rgb(21, 0, 255);
+    height: 100px;
+    width: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
-    transition: 1s;
-}
-
-.box:hover{
-    background: #121c13;
-    transform: scale(1.05);
-}
-
-@media(max-width:300px){
-    .gallery{
-        grid-template-columns: repeat(2,1fr);
-    }
+    color: white;
 }
