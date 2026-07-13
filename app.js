@@ -1,12 +1,27 @@
-let A = 4
-let B = 6
+console.log("Hello External Js File");
 
-console.log( A + B );     //// Addtion 
+// Let's how to create string variables :)
 
-console.log( A - B );     //// Subtraction 
+// let myname = "My name is Hassan, Im 21 years old ";
+// let fruit = "Banana";
+// let animal = "Cow";
+// console.log(fruit);
+// console.log(myname);
+// console.log(animal);
+// console.log(myname, fruit, animal);
 
-console.log( A * B );     //// Multiply
 
-console.log( A / B);      //// Divisison 
+// Now how i changed the value of my variable
 
-console.log( A % B );     ///// Modulus
+// let myname = "Hassan";
+// console.log(myname);
+
+// myname = "muteeb";
+// console.log(myname);
+
+
+// now i only write variable name and next line i defined what is this value
+
+let nationality;
+nationality = "America"
+console.log(nationality);
