@@ -1,27 +1,16 @@
-console.log("Hello External Js File");
+///Question:01
+ 
+ let addThings = 20;
+ let secondThing = 10;
+ let addMoreThings = addThings++ + addThings-- + --addThings + secondThing - 20;
+ console.log(addMoreThings);
+ console.log(addThings++);
+ console.log(addThings);
 
-// Let's how to create string variables :)
+ ///Question: 02
 
-// let myname = "My name is Hassan, Im 21 years old ";
-// let fruit = "Banana";
-// let animal = "Cow";
-// console.log(fruit);
-// console.log(myname);
-// console.log(animal);
-// console.log(myname, fruit, animal);
-
-
-// Now how i changed the value of my variable
-
-// let myname = "Hassan";
-// console.log(myname);
-
-// myname = "muteeb";
-// console.log(myname);
-
-
-// now i only write variable name and next line i defined what is this value
-
-let nationality;
-nationality = "America"
-console.log(nationality);
+ let division =  20 / 2;
+ let multiplication = 10 * 4;
+ let addBothThings = division + multiplication + division++;
+ console.log(addBothThings);
+ console.log(division);
